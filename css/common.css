@@ -62,6 +62,7 @@
 /* header */
 .header{
     position:relative;
+    height:105px;
 }
 .header .logo{
     position:absolute;
@@ -93,6 +94,7 @@
     width:454px;
     height:32px;
     font-size:14px;
+    padding-left:10px;
 }
 
 .search button{
@@ -101,4 +103,56 @@
     height:32px;
     background-color:#b1191a;
     /* vertical-align:top; */
+}
+
+.hotwords{
+    position:absolute;
+    top:69px;
+    left:348px;
+}
+.hotwords a{
+    font-size:12px;
+    margin: 0 12px;
+}
+
+.hotwords a:first-child{
+    color:#c81623;
+}
+
+.shopcar{
+    position:absolute;
+    top:25px;
+    left:996px;
+    width:140px;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    font-size:12px;
+    background-color: #f7f7f7;
+    border:1px solid #dfdfdf;
+}
+
+.shopcar::before{
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right:7px;
+    color:#db5c5c;
+}
+
+.shopcar::after{
+    content:'\e920';
+    font-family: 'icomoon';
+    margin-left:15px;
+}
+
+.shopcar .count{
+    position:absolute;
+    top:-4px;
+    left:95px;
+    height:14px;
+    line-height:14px;
+    padding:0 5px;
+    border-radius:7px 7px 7px 0;
+    background-color: #e60012;
+    color:#fff;
 }
